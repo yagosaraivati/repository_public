@@ -1,2 +1,3 @@
 # repository_public
-Onde estará scripts para serem usados nos servidores
+
+Onde estará os scripts para serem clonados e em seguida apagados.
