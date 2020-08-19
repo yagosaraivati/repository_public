@@ -37,7 +37,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 WORDPRESS="https://wordpress.org/latest.zip"
 #
 # Declarando as variaveis para criação da Base de Dados do Wordpress
-USER="yams"
+USER="root"
 PASSWORD="yams1234%"
 # opção do comando create: create (criação), database (base de dados), base (banco de dados)
 # opção do comando create: create (criação), user (usuário), identified by (indentificado por - senha do usuário), password (senha)
