@@ -122,7 +122,7 @@ echo
 #
 echo -e "Instalando APACHE2, aguarde..."
 	# opção do comando: &>> (redirecionar a saída padrão)
-	apt install -y mysql-server &>> $LOG
+	apt install -y apache2 &>> $LOG
 echo -e "Apache instalado com sucesso!!!, continuando com o script..."
 sleep 5
 echo
