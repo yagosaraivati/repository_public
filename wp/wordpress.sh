@@ -156,9 +156,9 @@ echo -e "Copiando os arquivos de configuração do Wordpress, aguarde..."
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando mv: -v (verbose)
 	# opção do comando cp: -v (verbose)
-	mv -v wordpress/ /var/www/html/wp &>> $LOG
-	cp -v htaccess /var/www/html/wp/.htaccess &>> $LOG
-	cp -v wp-config.php /var/www/html/wp/ &>> $LOG
+	mv -v . wordpress/ /var/www/html/wp &>> $LOG
+	cp -v . htaccess /var/www/html/wp/.htaccess &>> $LOG
+	cp -v . wp-config.php /var/www/html/wp/ &>> $LOG
 echo -e "Arquivos copiados com sucesso!!!, continuando com o script..."
 sleep 5
 echo
